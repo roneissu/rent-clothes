@@ -4,6 +4,7 @@
   "homepage": "https://roneissu.github.io/rent-clothes",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -14,7 +15,9 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:sass": "node-sass src/ -o src/",
+    "watch:sass": "npm run build:sass && node-sass src/ -o src/ --watch --recursive"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,6 +35,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.0"
+    "gh-pages": "2.0"
   }
 }

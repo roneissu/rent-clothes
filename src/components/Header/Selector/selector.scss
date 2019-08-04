@@ -1,0 +1,17 @@
+.btn {
+    height: 8vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffffa0;
+    border: none;
+
+    &.sel {
+        background-color: #ffffff;
+    }
+
+    img {
+        height: 6vh;
+        width: 6vh;
+    }
+}

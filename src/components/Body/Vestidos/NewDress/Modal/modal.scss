@@ -1,0 +1,99 @@
+.modal {
+    --modalHeight: 50vh;
+    --modalWidth: 100vw;
+
+    height: 70vh;
+    width: 100vw;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 110 !important;
+    top: 20vh;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    border: none;
+
+    label {
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e2beff;
+        font-size: 5vh;
+
+        &:active {
+            background-color: lightgray;
+        }
+    }
+
+    input {
+        display: none;
+    }
+
+    .foto {
+        max-height: var(--modalHeight);
+        max-width: var(--modalWidth);
+    }
+
+    .container-girar-foto{
+        --modalHeight: 100vw;
+        --modalWidth: 50vh;
+        transform: rotate(-90deg);
+    }
+
+    .btn-girar-foto {
+        height: 8vh;
+        width: 8vh;
+        border: none;
+        background-color: #c000c0c0;
+        position: absolute;
+        bottom: 11vh;
+        right: 2vw;
+        border-radius: 50%;
+
+        .btn-seta {
+            height: 4vh;
+            transform: rotate(30deg);
+            
+            &-voltar {
+                height: 4vh;
+                transform: rotate(45deg) scaleX(-1);
+            }
+        }
+    }
+
+    .navegacao {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+
+        button {
+            flex: 1;
+            height: 10vh;
+            border: none;
+            color: white;
+            font-size: 3vh;
+
+            &:active {
+                background-color: gainsboro;
+            }
+
+            &:disabled {
+                background-color: lightgray !important;
+            }
+        }
+
+        .cancelar {
+            background-color: #dd8080;
+        }
+        .adicionar {
+            background-color: #8080dd;
+        }
+        .enviar {
+            background-color: #80dd80;
+        }
+    }
+}

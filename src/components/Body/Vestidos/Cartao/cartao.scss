@@ -1,0 +1,47 @@
+.card {
+    height: 60vw;
+    width: 40vw;
+    margin-bottom: 6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blueviolet;
+    background-color: white;
+
+    .card-container {
+        display: block;
+
+        .foto-container {
+            height: 50vw;
+            display: grid;
+            .foto-card {
+                margin-block-start: auto;
+                margin-block-end: auto;
+                max-height: 46vw;
+                max-width: calc(40vw - 4px);
+            }
+        }
+
+        .text-card {
+            height: 10vw;
+            width: 40vw;
+            position: relative;
+            bottom: 0;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+    
+}
+
+.card:active {
+    background-color: blueviolet;
+}

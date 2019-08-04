@@ -1,0 +1,43 @@
+.tamanhos {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    z-index: 90;
+
+    .btn-sel,
+    .btn-not {
+        height: 8vh;
+        width: 45vw;
+        font-size: 3.5vh;
+        text-align: center;
+    }
+
+    .btn-sel {
+        font-weight: bold;
+        background-color: blueviolet;
+        color: white;
+        border: none;
+    }
+
+    .btn-not {
+        background-color: white;
+        color: blueviolet;
+        border: 1px solid blueviolet;
+    }
+}
+
+.lista {
+    width: 100vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-inline-start: 0;
+    z-index: 85;
+    overflow-y: hidden;
+}

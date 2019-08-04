@@ -1,0 +1,40 @@
+@import '../Cartao/cartao.scss';
+
+$mais-active: false;
+
+.mais {
+    --active-color: blueviolet;
+
+    &:active {
+        background-color: blueviolet;
+        --active-color: white;
+    }
+
+    .border {
+        height: 30vw;
+        width: 30vw;
+        border: 3vw solid var(--active-color);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mais {
+        &-vertical {
+            height: 20vw;
+            width: 5vw;
+            left: 9.5vw;
+            background-color: var(--active-color);
+            position: relative;
+        }
+
+        &-horizontal {
+            height: 5vw;
+            width: 20vw;
+            right: 2.5vw;
+            background-color: var(--active-color);
+            position: relative;
+        }
+    }
+}

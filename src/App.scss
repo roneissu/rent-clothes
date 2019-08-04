@@ -1,0 +1,30 @@
+.App {
+    align-items: center;
+}
+
+.App-header {
+    background-color: blueviolet;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.App-body {
+    padding-top: 10vh;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+}
+
+div, button, ul, li {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+}
