@@ -10,6 +10,7 @@ const urlsToCache = [
     pub + '/favicon.ico',
     '/css/main.0df1030a.chunk.css',
     '/css/main.0df1030a.chunk.css.map',
+    pub + '/icons/icon-144x144.png',
     pub + '/icons/icon-512x512.png',
     pub + '/images/calendario.png',
     pub + '/images/lapis.png',
