@@ -46,6 +46,6 @@
   "start_url": ".",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#000000",
+  "theme_color": "#771e80",
   "background_color": "#771e80"
 }
