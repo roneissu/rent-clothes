@@ -14,13 +14,7 @@ const urlsToCache = [
     './static/js/runtime~main.a64c2cb9.js.map',
     './static/css',
     './static/css/main.1c933296.chunk.css',
-    './static/css/main.1c933296.chunk.css.map',
-    './images',
-    './images/icon-144x144.png',
-    './images/calendario.png',
-    './images/lapis.png',
-    './images/vestido.png',
-    './images/seta_curva.svg'
+    './static/css/main.1c933296.chunk.css.map'
 ];
 
 this.addEventListener('install', function (event) {
