@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cea4e937139efefb0e00e0216d44747e",
+    "revision": "5343f2bf602000ac0a4ec80b7c1e4705",
     "url": "/rent-clothes/index.html"
   },
   {
-    "revision": "a8990b2605e642d7ef06",
+    "revision": "3fd5710cf833ff384cbc",
     "url": "/rent-clothes/static/css/main.1c933296.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rent-clothes/static/js/2.c2695c00.chunk.js"
   },
   {
-    "revision": "a8990b2605e642d7ef06",
-    "url": "/rent-clothes/static/js/main.027c9cc8.chunk.js"
+    "revision": "3fd5710cf833ff384cbc",
+    "url": "/rent-clothes/static/js/main.281031c3.chunk.js"
   },
   {
     "revision": "5eb8b5f88c627247bcec",
