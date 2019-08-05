@@ -1,19 +1,26 @@
-const CACHE_NAME = 'aluguel-de-roupas';
+const CACHE_NAME = 'rent-clothes';
 
 const urlsToCache = [
-    '/',
-    '/static/js/bundle.js',
-    '/static/js/main.chunk.js',
-    '/static/js/1.chunk.js',
-    '/static/js/0.chunk.js',
-    '/favicon.ico',
-    '/css/main.0df1030a.chunk.css',
-    '/css/main.0df1030a.chunk.css.map',
-    '/icons/icon-512x512.png',
-    '/images/calendario.png',
-    '/images/lapis.png',
-    '/images/vestido.png',
-    '/images/seta_curva.svg'
+    './',
+    './favicon.ico',
+    './index.html',
+    // './static',
+    // './static/js',
+    './static/js/2.c2695c00.chunk.js',
+    './static/js/2.c2695c00.chunk.js.map',
+    './static/js/main.281031c3.chunk.js',
+    './static/js/main.281031c3.chunk.js.map',
+    './static/js/runtime~main.a64c2cb9.js',
+    './static/js/runtime~main.a64c2cb9.js.map',
+    // './static/css',
+    './static/css/main.1c933296.chunk.css',
+    './static/css/main.1c933296.chunk.css.map',
+    // './images',
+    './images/icon-144x144.png',
+    './images/calendario.png',
+    './images/lapis.png',
+    './images/vestido.png',
+    './images/seta_curva.svg'
 ];
 
 this.addEventListener('install', function (event) {

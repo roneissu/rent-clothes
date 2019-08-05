@@ -148,7 +148,7 @@ export default function Modal({ resetParent }) {
             {
                 fotoDados.url === "" && !fotoDados.selected ? <></> :
                     <button onClick={ girarFoto } className="btn-girar-foto">
-                        <img src="/images/seta_curva.svg" alt="" className={ fotoDados.girar ? "btn-seta" : "btn-seta-voltar" } />
+                        <img src={process.env.PUBLIC_URL + '/images/seta_curva.svg'} alt="" className={ fotoDados.girar ? "btn-seta" : "btn-seta-voltar" } />
                     </button>
             }
 
@@ -156,7 +156,7 @@ export default function Modal({ resetParent }) {
                 <button className="cancelar" onClick={ resetModal }>Cancelar</button>
                 {
                     fotoDados.selected ? 
-                        <button className={"enviar"} onClick={ sendImage } >Enviar</button> :
+                        <button className="enviar" onClick={ sendImage } >Enviar</button> :
                         <button className="enviar" disabled={ fotoDados.id === 0 } onClick={ toggleStep } >OK</button>
                 }
             </div>
