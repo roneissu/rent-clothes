@@ -7,14 +7,14 @@ const urlsToCache = [
     '/static/js/1.chunk.js',
     '/static/js/0.chunk.js',
     '/favicon.ico',
-    '/css/main.0df1030a.chunk.css',
-    '/css/main.0df1030a.chunk.css.map',
-    '/icons/icon-144x144.png',
-    '/icons/icon-512x512.png',
-    '/images/calendario.png',
-    '/images/lapis.png',
-    '/images/vestido.png',
-    '/images/seta_curva.svg'
+    '/css/main.1c933296.chunk.css',
+    '/css/main.1c933296.chunk.css.map'
+    // '/icons/icon-144x144.png',
+    // '/icons/icon-512x512.png',
+    // '/images/calendario.png',
+    // '/images/lapis.png',
+    // '/images/vestido.png',
+    // '/images/seta_curva.svg'
 ];
 
 this.addEventListener('install', function (event) {
