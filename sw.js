@@ -6,15 +6,15 @@ const urlsToCache = [
     '/static/js/main.chunk.js',
     '/static/js/1.chunk.js',
     '/static/js/0.chunk.js',
-    '%PUBLIC_URL%/favicon.ico',
+    '/favicon.ico',
     '/css/main.0df1030a.chunk.css',
     '/css/main.0df1030a.chunk.css.map',
-    '%PUBLIC_URL%/icons/icon-144x144.png',
-    '%PUBLIC_URL%/icons/icon-512x512.png',
-    '%PUBLIC_URL%/images/calendario.png',
-    '%PUBLIC_URL%/images/lapis.png',
-    '%PUBLIC_URL%/images/vestido.png',
-    '%PUBLIC_URL%/images/seta_curva.svg'
+    '/icons/icon-144x144.png',
+    '/icons/icon-512x512.png',
+    '/images/calendario.png',
+    '/images/lapis.png',
+    '/images/vestido.png',
+    '/images/seta_curva.svg'
 ];
 
 this.addEventListener('install', function (event) {
