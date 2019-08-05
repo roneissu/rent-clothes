@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rent-clothes/static/css/main.1c933296.chunk.css",
-    "main.js": "/rent-clothes/static/js/main.8e8083ff.chunk.js",
-    "main.js.map": "/rent-clothes/static/js/main.8e8083ff.chunk.js.map",
+    "main.js": "/rent-clothes/static/js/main.6138a334.chunk.js",
+    "main.js.map": "/rent-clothes/static/js/main.6138a334.chunk.js.map",
     "runtime~main.js": "/rent-clothes/static/js/runtime~main.a64c2cb9.js",
     "runtime~main.js.map": "/rent-clothes/static/js/runtime~main.a64c2cb9.js.map",
     "static/js/2.c2695c00.chunk.js": "/rent-clothes/static/js/2.c2695c00.chunk.js",
     "static/js/2.c2695c00.chunk.js.map": "/rent-clothes/static/js/2.c2695c00.chunk.js.map",
     "index.html": "/rent-clothes/index.html",
-    "precache-manifest.5be11ec60b831397db96e4271b6ddf8a.js": "/rent-clothes/precache-manifest.5be11ec60b831397db96e4271b6ddf8a.js",
+    "precache-manifest.8fc73c6e2d9a3a917d946eda0e971a1a.js": "/rent-clothes/precache-manifest.8fc73c6e2d9a3a917d946eda0e971a1a.js",
     "service-worker.js": "/rent-clothes/service-worker.js",
     "static/css/main.1c933296.chunk.css.map": "/rent-clothes/static/css/main.1c933296.chunk.css.map"
   }
